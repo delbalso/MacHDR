@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A6CA881523FDC400DEEBDE /* HDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6CA871523FDC400DEEBDE /* HDR.m */; };
+		22AB3145151D300D00076079 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3144151D300D00076079 /* Cocoa.framework */; };
+		22AB314F151D300D00076079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22AB314D151D300D00076079 /* InfoPlist.strings */; };
+		22AB3152151D300D00076079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3151151D300D00076079 /* main.m */; };
+		22AB3155151D300D00076079 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3153151D300D00076079 /* Credits.rtf */; };
+		22AB3158151D300D00076079 /* photoGrabberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3157151D300D00076079 /* photoGrabberAppDelegate.m */; };
+		22AB315B151D300D00076079 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3159151D300D00076079 /* MainMenu.xib */; };
+		22AB3163151D30E100076079 /* PhotoGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3162151D30E100076079 /* PhotoGrabber.m */; };
+		22AB3165151D31ED00076079 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3164151D31ED00076079 /* QTKit.framework */; };
+		22AB3167151D31FC00076079 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3166151D31FC00076079 /* QuartzCore.framework */; };
+		22AB316A151D324D00076079 /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3169151D324D00076079 /* PhotoView.m */; };
+		22AB317F151D7C5600076079 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AB317E151D7C5600076079 /* picture.png */; };
+		22AB31E2151E151100076079 /* UVCCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB31E1151E151100076079 /* UVCCameraControl.m */; };
+		22AB31E4151E165700076079 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB31E3151E165700076079 /* IOKit.framework */; };
+		22AB31EB151E524200076079 /* PhotoGrabberController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB31E9151E524200076079 /* PhotoGrabberController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22A6CA861523FDC400DEEBDE /* HDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDR.h; sourceTree = "<group>"; };
+		22A6CA871523FDC400DEEBDE /* HDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDR.m; sourceTree = "<group>"; };
+		22AB3140151D300D00076079 /* photoGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AB3144151D300D00076079 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22AB3147151D300D00076079 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22AB3148151D300D00076079 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22AB3149151D300D00076079 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22AB314C151D300D00076079 /* photoGrabber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photoGrabber-Info.plist"; sourceTree = "<group>"; };
+		22AB314E151D300D00076079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22AB3150151D300D00076079 /* photoGrabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photoGrabber-Prefix.pch"; sourceTree = "<group>"; };
+		22AB3151151D300D00076079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22AB3154151D300D00076079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22AB3156151D300D00076079 /* photoGrabberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = photoGrabberAppDelegate.h; sourceTree = "<group>"; };
+		22AB3157151D300D00076079 /* photoGrabberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoGrabberAppDelegate.m; sourceTree = "<group>"; };
+		22AB315A151D300D00076079 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22AB3161151D30E100076079 /* PhotoGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGrabber.h; sourceTree = "<group>"; };
+		22AB3162151D30E100076079 /* PhotoGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGrabber.m; sourceTree = "<group>"; };
+		22AB3164151D31ED00076079 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		22AB3166151D31FC00076079 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22AB3168151D324D00076079 /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		22AB3169151D324D00076079 /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		22AB317E151D7C5600076079 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		22AB31E0151E151000076079 /* UVCCameraControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraControl.h; sourceTree = "<group>"; };
+		22AB31E1151E151100076079 /* UVCCameraControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVCCameraControl.m; sourceTree = "<group>"; };
+		22AB31E3151E165700076079 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		22AB31E8151E524100076079 /* PhotoGrabberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGrabberController.h; path = photoGrabber.xcodeproj/PhotoGrabberController.h; sourceTree = SOURCE_ROOT; };
+		22AB31E9151E524200076079 /* PhotoGrabberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGrabberController.m; path = photoGrabber.xcodeproj/PhotoGrabberController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22AB313D151D300D00076079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AB31E4151E165700076079 /* IOKit.framework in Frameworks */,
+				22AB3167151D31FC00076079 /* QuartzCore.framework in Frameworks */,
+				22AB3165151D31ED00076079 /* QTKit.framework in Frameworks */,
+				22AB3145151D300D00076079 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AB3135151D300C00076079 = {
+			isa = PBXGroup;
+			children = (
+				22AB314A151D300D00076079 /* photoGrabber */,
+				22AB3143151D300D00076079 /* Frameworks */,
+				22AB3141151D300D00076079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22AB3141151D300D00076079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22AB3140151D300D00076079 /* photoGrabber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AB3143151D300D00076079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22AB31E3151E165700076079 /* IOKit.framework */,
+				22AB3166151D31FC00076079 /* QuartzCore.framework */,
+				22AB3164151D31ED00076079 /* QTKit.framework */,
+				22AB3144151D300D00076079 /* Cocoa.framework */,
+				22AB3146151D300D00076079 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22AB3146151D300D00076079 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22AB3147151D300D00076079 /* AppKit.framework */,
+				22AB3148151D300D00076079 /* CoreData.framework */,
+				22AB3149151D300D00076079 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		22AB314A151D300D00076079 /* photoGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				22A6CA861523FDC400DEEBDE /* HDR.h */,
+				22A6CA871523FDC400DEEBDE /* HDR.m */,
+				22AB31E8151E524100076079 /* PhotoGrabberController.h */,
+				22AB31E9151E524200076079 /* PhotoGrabberController.m */,
+				22AB31E0151E151000076079 /* UVCCameraControl.h */,
+				22AB31E1151E151100076079 /* UVCCameraControl.m */,
+				22AB3156151D300D00076079 /* photoGrabberAppDelegate.h */,
+				22AB3157151D300D00076079 /* photoGrabberAppDelegate.m */,
+				22AB3161151D30E100076079 /* PhotoGrabber.h */,
+				22AB3162151D30E100076079 /* PhotoGrabber.m */,
+				22AB3159151D300D00076079 /* MainMenu.xib */,
+				22AB3168151D324D00076079 /* PhotoView.h */,
+				22AB3169151D324D00076079 /* PhotoView.m */,
+				22AB314B151D300D00076079 /* Supporting Files */,
+			);
+			path = photoGrabber;
+			sourceTree = "<group>";
+		};
+		22AB314B151D300D00076079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22AB317E151D7C5600076079 /* picture.png */,
+				22AB314C151D300D00076079 /* photoGrabber-Info.plist */,
+				22AB314D151D300D00076079 /* InfoPlist.strings */,
+				22AB3150151D300D00076079 /* photoGrabber-Prefix.pch */,
+				22AB3151151D300D00076079 /* main.m */,
+				22AB3153151D300D00076079 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22AB313F151D300D00076079 /* photoGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AB315E151D300D00076079 /* Build configuration list for PBXNativeTarget "photoGrabber" */;
+			buildPhases = (
+				22AB313C151D300D00076079 /* Sources */,
+				22AB313D151D300D00076079 /* Frameworks */,
+				22AB313E151D300D00076079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoGrabber;
+			productName = photoGrabber;
+			productReference = 22AB3140151D300D00076079 /* photoGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22AB3137151D300C00076079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Toronto";
+			};
+			buildConfigurationList = 22AB313A151D300C00076079 /* Build configuration list for PBXProject "photoGrabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22AB3135151D300C00076079;
+			productRefGroup = 22AB3141151D300D00076079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AB313F151D300D00076079 /* photoGrabber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AB313E151D300D00076079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AB314F151D300D00076079 /* InfoPlist.strings in Resources */,
+				22AB3155151D300D00076079 /* Credits.rtf in Resources */,
+				22AB315B151D300D00076079 /* MainMenu.xib in Resources */,
+				22AB317F151D7C5600076079 /* picture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AB313C151D300D00076079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AB3152151D300D00076079 /* main.m in Sources */,
+				22AB3158151D300D00076079 /* photoGrabberAppDelegate.m in Sources */,
+				22AB3163151D30E100076079 /* PhotoGrabber.m in Sources */,
+				22AB316A151D324D00076079 /* PhotoView.m in Sources */,
+				22AB31E2151E151100076079 /* UVCCameraControl.m in Sources */,
+				22AB31EB151E524200076079 /* PhotoGrabberController.m in Sources */,
+				22A6CA881523FDC400DEEBDE /* HDR.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22AB314D151D300D00076079 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AB314E151D300D00076079 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22AB3153151D300D00076079 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AB3154151D300D00076079 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22AB3159151D300D00076079 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AB315A151D300D00076079 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22AB315C151D300D00076079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22AB315D151D300D00076079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22AB315F151D300D00076079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoGrabber/photoGrabber-Prefix.pch";
+				INFOPLIST_FILE = "photoGrabber/photoGrabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22AB3160151D300D00076079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photoGrabber/photoGrabber-Prefix.pch";
+				INFOPLIST_FILE = "photoGrabber/photoGrabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AB313A151D300C00076079 /* Build configuration list for PBXProject "photoGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AB315C151D300D00076079 /* Debug */,
+				22AB315D151D300D00076079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AB315E151D300D00076079 /* Build configuration list for PBXNativeTarget "photoGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AB315F151D300D00076079 /* Debug */,
+				22AB3160151D300D00076079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22AB3137151D300C00076079 /* Project object */;
+}
